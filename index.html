@@ -89,7 +89,7 @@ details.fold{padding:0}details.fold>summary{list-style:none;cursor:pointer;paddi
 
 <script>
 /* ---------- data ---------- */
-const PROFILE="joeshua";/* "joeshua" or "girlfriend": the ONLY line that differs between the two builds */
+const PROFILE="girlfriend";/* "joeshua" or "girlfriend": the ONLY line that differs between the two builds */
 const GF=PROFILE==="girlfriend";
 const BILLS0=()=>GF?[]:[{id:"rent",n:"Rent",a:4500,c:"Rent"},{id:"wifi",n:"Wifi",a:799,c:"Internet"},{id:"elec",n:"Electricity",a:0,c:"Utilities",var:true},{id:"water",n:"Water",a:0,c:"Utilities",var:true}];
 const DEF=()=>GF?{v:1,acc:[{id:"wal",n:"Wallet",t:"cash",o:0},{id:"ew",n:"E-wallet",t:"ewallet",o:0},{id:"bk",n:"Bank",t:"bank",o:0},{id:"sv",n:"Savings",t:"savings",o:0}],
